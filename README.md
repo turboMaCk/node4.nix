@@ -2,6 +2,8 @@
 
 Nix expression for legacy Node 4.9 version. **Always prefer update over usage of this legacy version.**.
 
+release.nix contains pinned version of nixpks.
+
 ## Usage
 
 ```nix
@@ -9,7 +11,7 @@ Nix expression for legacy Node 4.9 version. **Always prefer update over usage of
 import (pkgs.fetchFromGitHub {
   owner = "turboMaCk";
   repo = "node4.nix";
-  rev = "3a2a43001874d24f7f3c72915d27776e16a53090";
-  sha256 = "1fvdv97w5c4jps8kai6vmyxrbnasl2ncgkww7rfkqn6ib8wq8zsn";
+  rev = "23966d91cbd39018bfd7f1646e46e7c7fe665778";
+  sha256 = "0zsd1q2ip4qdlnym82v1lb6mpqq3r87pxqixa9d283hcngljyfhf"
 }) pkgs
 ```
